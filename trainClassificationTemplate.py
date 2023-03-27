@@ -179,7 +179,7 @@ def train_DANNmodel(model, sim_loader, exp_loader, val_exp_loader, val_sim_loade
             scheduler.step()
 
         print("Valid loss: %f, V acc: %f, epoch: %f" % (loss_valid, accuracy_valid*100, epoch+1))
-
+        #asdsadjasd
         # drawing step
         ep = np.arange(1,(epoch+1)*(i_step+1)+1,1)
         lt = np.array(loss_history)
