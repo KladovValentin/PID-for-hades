@@ -104,7 +104,7 @@ def train_DANNmodel(model, sim_loader, exp_loader, val_exp_loader, val_sim_loade
     loss_history = []
     train_history = []
     validLoss_history = []
-
+    #ti loh
     len_dataloader = min(len(sim_loader), len(exp_loader))
     len_dataloader1 = min(len(val_sim_loader), len(val_exp_loader))
     for epoch in range(num_epochs):
